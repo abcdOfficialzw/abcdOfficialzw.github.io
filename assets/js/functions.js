@@ -312,7 +312,7 @@ $("#contactform").on("submit", function(e) {
     $.ajax({
       url:"assets/php/contact-form.php",
       data:$(this).serialize(),
-      type:"POST",
+      type:"GET",
       success:function(data){
         $("#success").addClass("show-result"); //=== Show Success Message==
         $("#contactform").each(function(){
