@@ -194,7 +194,7 @@ var swiper = new Swiper(".testimonial-slider", {
     type: "progressbar",
   },
   autoplay: {
-    delay: 2500,
+    delay: 7000,
     disableOnInteraction: true,
   },
 });
